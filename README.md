@@ -1,1 +1,0 @@
-# Shatir_domain
