@@ -1,0 +1,35 @@
+{
+  "name": "@shatir/domain",
+  "version": "1.0.0",
+  "description": "Shatir_domain",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig-mjs.json && tsc -p tsconfig-cjs.json",
+    "postbuild": "./scripts/fix-common-package-exports.sh",
+    "start:dev": "tsc -p tsconfig-mjs.json --watch & tsc -p tsconfig-cjs.json --watch",
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurTur/Shatir_domain.git"
+  },
+  "author": "Turgynbekov Nurbolat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurTur/Shatir_domain/issues"
+  },
+  "homepage": "https://github.com/NurTur/Shatir_domain#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "class-validator": "^0.14.0"
+  }
+}
