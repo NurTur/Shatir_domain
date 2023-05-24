@@ -1,8 +1,15 @@
 {
-  "name": "@shatir/domain",
+  "name": "shatir-domain",
   "version": "1.0.0",
   "description": "Shatir_domain",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig-mjs.json && tsc -p tsconfig-cjs.json",
@@ -10,12 +17,9 @@
     "start:dev": "tsc -p tsconfig-mjs.json --watch & tsc -p tsconfig-cjs.json --watch",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NurTur/Shatir_domain.git"
-  },
-  "author": "Turgynbekov Nurbolat",
-  "license": "ISC",
+  "repository": "git+https://github.com/NurTur/Shatir_domain.git",
+  "author": "nurtur",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NurTur/Shatir_domain/issues"
   },
