@@ -35,5 +35,6 @@
   },
   "dependencies": {
     "class-validator": "^0.14.0"
-  }
+  },
+  "files": ["dist/**/*", "src/**/*"]
 }
