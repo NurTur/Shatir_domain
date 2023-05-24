@@ -1,0 +1,10 @@
+node_modules
+tsconfig.json
+.husky
+.vscode
+.eslintcache
+.eslintrc
+commitlint.config.cjs
+commitlint.config.js
+lint-staged.config.cjs
+lint-staged.config.js

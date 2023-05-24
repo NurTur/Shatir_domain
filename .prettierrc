@@ -1,0 +1,30 @@
+{
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 4,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "useTabs": true,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "parser": "typescript",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ".*rc",
+      "options": {
+        "singleQuote": false,
+        "parser": "json"
+      }
+    }
+  ]
+}
+
+
