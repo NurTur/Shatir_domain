@@ -1,6 +1,6 @@
 export class TestFirst {
-	readonly name: string = "";
-	constructor(test:string) {
+	readonly name: string = '';
+	constructor(test: string) {
 		this.name = test;
 	}
 	getName() {

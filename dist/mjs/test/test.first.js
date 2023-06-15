@@ -1,5 +1,5 @@
 export class TestFirst {
-    name = "";
+    name = '';
     constructor(test) {
         this.name = test;
     }

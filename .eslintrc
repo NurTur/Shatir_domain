@@ -104,7 +104,7 @@
           "readonly"
         ],
         "format": [
-          "PascalCase"
+          "camelCase"
         ]
       },
       {
