@@ -8,7 +8,7 @@ import {
 	MaxLength,
 	IsEnum,
 } from 'class-validator';
-import text from '../i18n/exceptions.json';
+import text from '../i18n/zapas/exceptions.json';
 
 export enum Language {
 	KK = 'kk-KZ',

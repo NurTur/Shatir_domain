@@ -1,0 +1,57 @@
+{
+	"isNotEmpty": {
+		"EN": "must not be empty",
+		"RU": "не должно быть пустым",
+		"KZ": "бос болмауы керек"
+	},
+	"isEmail": {
+		"EN": "must contain a valid email value",
+		"RU": "должен содержать действительное значение электронной почты",
+		"KZ": "жарамды электрондық пошта мәнін қамтуы керек"
+	},
+	"minLength_8": {
+		"EN": "must contain at least 8 characters",
+		"RU": "должен содержать не менее 8 символов",
+		"KZ": "кемінде 8 таңбадан тұруы керек"
+	},
+	"minLength_2": {
+		"EN": "must contain at least 2 characters",
+		"RU": "должен содержать не менее 2 символов",
+		"KZ": "кемінде 2 таңбадан тұруы керек"
+	},
+	"userExists": {
+		"EN": "User with this email exists",
+		"RU": "Пользователь с таким имэйл существует",
+		"KZ": "Осындай электрондық поштасы бар пайдаланушы бар"
+	},
+	"containLetters": {
+		"EN": "must contain only letters",
+		"RU": "должен содержать только буквы",
+		"KZ": "тек әріптерден тұруы керек"
+	},
+	"isMobilePhone": {
+		"EN": "must be supplied with the country code and therefore must start with `+`",
+		"RU": "должен быть снабжен кодом страны и, следовательно, должен начинаться с `+`",
+		"KZ": "ел коды берілуі керек, сондықтан `+` белгісінен басталуы керек"
+	},
+	"isString": {
+		"EN": "must be a string",
+		"RU": "должен быть строкой",
+		"KZ": "жол болуы керек"
+	},
+	"maxLength": {
+		"EN": "too long string",
+		"RU": "слишком длинная строка",
+		"KZ": "тым ұзын жол"
+	},
+	"unknownError": {
+		"EN": "Unknown error",
+		"RU": "Неизвестная ошибка",
+		"KZ": "Белгісіз қате"
+	},
+	"isEnum": {
+		"EN": "must be a member of the supplied enum",
+		"RU": "должен быть членом предоставленного перечисления",
+		"KZ": "берілген нөмірдің мүшесі болуы керек"
+	}
+}
