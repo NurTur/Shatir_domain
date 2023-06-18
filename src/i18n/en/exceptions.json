@@ -1,0 +1,12 @@
+{
+	"isNotEmpty": "{property} must not be empty",	
+	"isEmail":  "{property} must contain a valid email value",
+	"minLength": "{property} must contain at least {length} characters",
+	"userExists": "User with this email exists",
+	"containLetters": "{property} must contain only letters",
+	"isMobilePhone": "{property} must be supplied with the country code and therefore must start with `+`",
+	"isString": "{property} must be a string",
+	"maxLength": "{property} must contain a maximum of {length} characters",
+	"unknownError": "Unknown error",
+	"isEnum": "{property} must be a member of the supplied enum"
+}

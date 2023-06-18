@@ -15,7 +15,8 @@
     "build": "tsc -p tsconfig-mjs.json && tsc -p tsconfig-cjs.json",
     "postbuild": "./scripts/fix-common-package-exports.sh",
     "start:dev": "tsc -p tsconfig-mjs.json --watch & tsc -p tsconfig-cjs.json --watch",
-    "lint": "eslint \"{src,test}/**/*.ts\" --fix"
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "copy-json": "copy \"src/i18n/en/exceptions.json\" \"dist/i18n/en/exceptions.json\""
   },
   "repository": "git+https://github.com/NurTur/Shatir_domain.git",
   "author": "nurtur",
@@ -34,7 +35,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "class-validator": "^0.14.0"
+    "class-validator": "^0.14.0",
+    "nestjs-i18n": "^10.2.6"
   },
   "files": [
     "dist/**/*",
