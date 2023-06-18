@@ -16,7 +16,7 @@
     "postbuild": "./scripts/fix-common-package-exports.sh",
     "start:dev": "tsc -p tsconfig-mjs.json --watch & tsc -p tsconfig-cjs.json --watch",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
-    "copy-json": "copy \"src/i18n/en/exceptions.json\" \"dist/i18n/en/exceptions.json\""
+    "copy-json": "node -e \"require('fs-extra').copySync('src/i18n/', 'dist/i18n/')\""
   },
   "repository": "git+https://github.com/NurTur/Shatir_domain.git",
   "author": "nurtur",
@@ -31,6 +31,7 @@
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "fs-extra": "^11.1.1",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
   },
