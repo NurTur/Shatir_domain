@@ -12,7 +12,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc -p tsconfig-mjs.json && tsc -p tsconfig-cjs.json",
+    "build": "tsc -p tsconfig-mjs.json && tsc -p tsconfig-cjs.json && npm run copy-json",
     "postbuild": "./scripts/fix-common-package-exports.sh",
     "start:dev": "tsc -p tsconfig-mjs.json --watch & tsc -p tsconfig-cjs.json --watch",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
