@@ -1,49 +1,3 @@
-// {
-//   "compileOnSave": false,
-//   "compilerOptions": {
-//     "sourceMap": true,
-//     "declaration": true,
-//     "moduleResolution": "node",
-//     "emitDecoratorMetadata": true,
-//     "experimentalDecorators": true,
-//     "importHelpers": true,
-
-//     "lib": ["es2017", "dom"],
-//     "skipLibCheck": true,
-//     "skipDefaultLibCheck": true,
-//     "baseUrl": "./",
-//     "outDir": "./dist",
-//     "esModuleInterop": true,
-//     "resolveJsonModule": true,
-
-//     "paths": {
-//       "~/*": ["src/*"]
-//     }
-//   },
-//   "exclude": ["node_modules", "tmp"]
-// }
-
-// {
-//   "compilerOptions": {
-//     "allowSyntheticDefaultImports": true,
-//     "baseUrl": "src",
-//     "inlineSourceMap": false,
-//     "lib": ["esnext"],
-//     "listEmittedFiles": false,
-//     "listFiles": false,
-//     "noFallthroughCasesInSwitch": true,
-//     "outDir": "dist",
-//     "traceResolution": false,
-//     "paths": {
-//       "~/*": ["src/*"]
-//     }
-//   },
-//   "exclude": ["**/node_modules/*", "**/dist/*", "scripts/*"],
-//   "include": ["src"]
-// }
-
-
-
 {
   "compilerOptions": {
     "allowJs": true,
@@ -72,6 +26,6 @@
     "traceResolution": false,
   },
   "compileOnSave": false,
-  "exclude": ["**/node_modules/*", "src/dto/*"],
+  "exclude": ["**/node_modules/*", "src/dto/*","src/i18n/*"],
   "include": ["src"]
 }
