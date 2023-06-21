@@ -1,4 +1,4 @@
-#!/bin/sh
+git #!/bin/sh
 
 cat >dist/cjs/package.json <<!EOF
 {
