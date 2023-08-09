@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox } from '../../../node_modules/@mantine/core'
+import { Checkbox } from '../../lib/@mantine/core';
 
 export function UiCheckBox() {
   return (
