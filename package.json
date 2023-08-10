@@ -17,6 +17,7 @@
     "start:dev": "tsc -p tsconfig-mjs.json --watch & tsc -p tsconfig-cjs.json --watch",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "copy-i18n": "node -e \"require('fs-extra').copySync('src/i18n/', 'dist/i18n/')\"",
+    "package-modules": "node ./scripts/createModulePackages.js",
     "prepare": "husky install"
   },
   "repository": "git+https://github.com/NurTur/Shatir_domain.git",
