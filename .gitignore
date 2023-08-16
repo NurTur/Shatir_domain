@@ -1,36 +1,70 @@
-# compiled output
-dist
-node_modules
-yarn.lock
-
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# OS
+*.iml
+.idea/
+.ipr
+.iws
+*~
+~*
+*.diff
+*.patch
+*.bak
 .DS_Store
-
-# Tests
-/coverage
-/.nyc_output
-
-# IDEs and editors
-/.idea
+Thumbs.db
 .project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+.*proj
+.svn/
+*.swp
+*.swo
+*.log
+*.log.*
+*.json.gzip
+node_modules/
+.buildpath
+.settings
+npm-debug.log
+nohup.out
+_site
+_data
+dist
+report.html
+/lib
+/es
+/locale
+elasticsearch-*
+config/base.yaml
+/.vscode/
+/coverage
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+.pnpm-debug.log
+components/**/*.js
+components/**/*.jsx
+!components/**/__tests__/**/*.js
+!components/**/__tests__/**/*.js.snap
+/.history
+*.tmp
+server/
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# Docs templates
+scripts/previewEditor/index.html
+components/version/version.ts
+components/version/version.tsx
+components/version/token.json
+components/version/token-meta.json
+.dumi/tmp
+.dumi/tmp-test
+.dumi/tmp-production
+.dumi/preset/components-changelog*
+.dumi/preset/misc-changelog.json
+
+# Image snapshot diff
+__diff_output__/
+__image_snapshots__/
+/jest-stare
+/imageSnapshots
+/imageDiffSnapshots
+
+.devcontainer*
+.husky/prepare-commit-msg
+
+.eslintcache
