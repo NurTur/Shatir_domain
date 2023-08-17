@@ -18661,9 +18661,9 @@ rc-util@^5.0.1, rc-util@^5.15.0, rc-util@^5.16.0, rc-util@^5.16.1, rc-util@^5.17
     react-is "^16.12.0"
 
 rc-virtual-list@^3.4.11, rc-virtual-list@^3.5.1, rc-virtual-list@^3.5.2:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/rc-virtual-list/-/rc-virtual-list-3.5.3.tgz#84f82d3257f6c520106a6285558dfc764c41c076"
-  integrity sha512-rG6IuD4EYM8K6oZ8Shu2BC/CmcTdqng4yBWkc/5fjWhB20bl6QwR2Upyt7+MxvfscoVm8zOQY+tcpEO5cu4GaQ==
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/rc-virtual-list/-/rc-virtual-list-3.7.0.tgz#d802e6676713bb79427027c99847175540b543a5"
+  integrity sha512-piCX5A6Jay9jWQwhj0DkNyDKuEB3Tfx4HM6/sFO0LwIxe4d12VoF/FsIRAld46Ly6Xl3FuCULHIU12lP21HcVg==
   dependencies:
     "@babel/runtime" "^7.20.0"
     classnames "^2.2.6"
